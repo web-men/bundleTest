@@ -4,8 +4,38 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "880d2e7c352618320d0a0bba0ab11bcf",
+    "content-hash": "70189e8963ab2375fc75ffcad5e442b6",
     "packages": [
+        {
+            "name": "elenyum/hello-bundle",
+            "version": "0.0.1",
+            "dist": {
+                "type": "path",
+                "url": "./bundle/Elenyum/HelloBundle",
+                "reference": "7e58e7b708f2875fd61bbaeb2f11b2f1aa53826e"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "syfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Elenyum\\HelloBundle\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Elenyum\\HelloBundle\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Symfony bundle tutorial example project",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "psr/cache",
             "version": "3.0.0",

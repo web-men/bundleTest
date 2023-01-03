@@ -1,0 +1,23 @@
+{
+  "name": "elenyum/hello-bundle",
+  "version": "0.0.1",
+  "type": "syfony-bundle",
+  "description": "Symfony bundle tutorial example project",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Elenyum\\HelloBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Elenyum\\HelloBundle\\": "tests/"
+    }
+  }
+}
